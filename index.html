@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS FILE LINK -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fontAwesome -->
+    <script src="https://kit.fontawesome.com/bf1c643ee2.js" crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Travel website</title>
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVWpc6fIkKpKjSNrQNFktluRALt6BEYV9OFPu6mqBz4g&s" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg  mt-2">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./asserts/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto d-flex justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item ms-1">
+                            <a class="nav-link" href="#">Destinations</a>
+                        </li>
+                        <li class="nav-item ms-1">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item ms-1">
+                            <a class="nav-link disabled">Partner</a>
+                        </li>
+                        <li class="nav-item me-2 mt-1 ms-1">
+                            <button class="py-1 px-4 login rounded-2">Login</button>
+                        </li>
+                        <li class="nav-item me-2 mt-1 ">
+                            <button class="py-1 px-4 register border-0 text-white rounded-2">Register</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- HERO SECTION -->
+
+        <div class="row mt-5">
+            <div class="col-12 col-md-6 d-flex flex-column justify-content-center position-relative">
+                <h2 class="headingLine">Explore and <br>
+                    Travel</h2>
+                <img src="./asserts/elementplus.png" class="position-absolute end-0 top-0" alt="">
+                <img src="./asserts/elementcircle.png" class="position-absolute end-0 bottom-0" alt="">
+                <img src="./asserts/elementcircle.png" class="position-absolute circle1" alt="">
+
+                <p class="holiday position-relative fw-bold fs-5">Holiday finder</p>
+
+                <div class="row gy-3 gx-2 mb-5 mt-3">
+                    <div class="col-6">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Location
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Activity
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Grade
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Date
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <button class="mt-5 explore py-1 px-4 register border-0 text-white rounded-2">Explore</button>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <img class="img-fluid" src="./asserts/heropic.png" alt="">
+            </div>
+        </div>
+
+        <!-- EXPLORE WORLD SECTION 2 -->
+
+        <div class="row explorerow d-flex flex-column-reverse d-md-flex flex-md-row">
+            <div class="col-12 col-md-6 mt-3 mt-md-0">
+                <img class="img-fluid" src="./asserts/explore.png" alt="">
+            </div>
+            <div class="col-12 col-md-6 d-flex flex-column justify-content-center position-relative">
+                <img src="./asserts/elementplus.png" class="position-absolute top-0" alt="">
+                <img src="./asserts/elementcircle.png" class="position-absolute circle d-none d-md-block" alt="">
+                <h2 class="ps-3 aNewWay">A new way to explore the <br> world</h2>
+                <p class="ps-3 exploreP">For decades travelers have reached for Lonely Planet books when looking to
+                    plan and execute their perfect
+                    trip, but now, they can also let Lonely Planet Experiences lead the way</p>
+                <button class="mt-3 explore py-2 px-4 register border-0 text-white rounded-2">Learn more</button>
+            </div>
+        </div>
+
+
+        <!-- Featured destinations -->
+
+        <div class="row explorerow mb-2">
+            <div class="col position-relative">
+                <p class="fs-3 featured">Featured destinations</p>
+            </div>
+            <div class="col d-flex justify-content-end">
+                <img src="./asserts/elementcircle.png" class="position-absolute start-50" alt="">
+                <p class="pcolor">View all>></p>
+            </div>
+        </div>
+        <!-- cards -->
+        <div class="row gx-2 gy-3">
+            <div class="col-6 col-md-3">
+                <div class="card1 position-relative">
+                    <div class="bg-white position-absolute bottom-0  rounded-end d-inline-block px-3 fw-bold">
+                        <p>Raja Ampat <br>
+                            <span class="fw-normal">Indonesia</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 ">
+                <div class="card2 position-relative">
+                    <div class="bg-white position-absolute bottom-0  rounded-end d-inline-block px-3 fw-bold">
+                        <p>Fanjingshan <br>
+                            <span class="fw-normal">China</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 ">
+                <div class="card3 position-relative">
+                    <div class="bg-white position-absolute bottom-0  rounded-end d-inline-block px-3 fw-bold">
+                        <p>Vevey<br>
+                            <span class="fw-normal">Switzerland</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-3 position-relative">
+                <div class="card4">
+                    <div class="bg-white position-absolute bottom-0  rounded-end d-inline-block px-3 fw-bold">
+                        <p>Skadar<br>
+                            <span class="fw-normal">Montenegro</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Guides by Thousand -->
+
+        <div class="row explorerow d-flex flex-row-reverse">
+            <div class="col-12 col-md-6 mt-3 mt-md-0">
+                <img class="img-fluid" src="./asserts/guides.png" alt="">
+            </div>
+            <div class="col-12 col-md-6 d-flex flex-column justify-content-center position-relative">
+                <img src="./asserts/elementplus.png" class="position-absolute top-0" alt="">
+                <img src="./asserts/elementcircle.png" class="position-absolute circle" alt="">
+                <h2 class="ps-3 aNewWay">Guides by Thousand <br> Sunny</h2>
+                <p class="ps-3 exploreP">Packed with tips and advice from our on-the-ground experts, our city guides app
+                    (iOS and Android) is the ultimate
+                    resource before and during a trip.</p>
+                <button class="mt-3 explore py-2 px-4 register border-0 text-white rounded-2">Download</button>
+            </div>
+        </div>
+
+
+        <!-- Testimonials -->
+
+        <p class="fs-3 featured mt-3">Testimonials</p>
+        <img src="./asserts/elementcircle.png" class="position-absolute testicircle" alt="">
+
+        <div id="carouselExampleControls" class="carousel slide position-relative explorerow" data-bs-ride="carousel">
+            <div class="carousel-inner ">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col d-flex flex-column justify-content-center">
+                            <div class="d-flex">
+                                <span class="fs-3 mt-4"><i class="fa-solid fa-star text-warning"></i></span>
+                                <span class="fs-3 mt-4"><i class="fa-solid fa-star text-warning"></i></span>
+                                <span class="fs-3 mt-4"><i class="fa-solid fa-star text-warning"></i></span>
+                                <span class="fs-3 mt-4"><i class="fa-solid fa-star text-warning"></i></span>
+                            </div>
+
+                            <div class="position-relative">
+                                <img src="./asserts/elementcircle.png" class="position-absolute circle" alt="">
+                                <p class="exploreP">“Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus
+                                    ac
+                                    scelerisque eu, facilisis quis purus. Morbi
+                                    blandit sit amet turpis nec”</p>
+
+                                <p class="fw-bold">Edward Newgate</p>
+                                <p>Founder Circle</p>
+                            </div>
+                        </div>
+                        <div class="col testimonialimg img-fluid rounded-3">
+                            <div class="indicators bg-white rounded-start py-2 px-2">
+                                <button class="indicatorbtn previous p-0" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carouselicon p-2 fs-2"><i class="fa-solid fa-less-than"></i></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="indicatorbtn next p-0" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span class=" carouselicon p-2 fs-2"><i class="fa-solid fa-greater-than"></i></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col d-flex flex-column justify-content-center">
+                            <div class="d-flex">
+                                <span class="fs-3 mt-4"><i class="fa-solid fa-star text-warning"></i></span>
+                                <span class="fs-3 mt-4"><i class="fa-solid fa-star text-warning"></i></span>
+                                <span class="fs-3 mt-4"><i class="fa-solid fa-star text-warning"></i></span>
+                                <span class="fs-3 mt-4"><i class="fa-solid fa-star text-warning"></i></span>
+                            </div>
+
+                            <div class="position-relative">
+                                <img src="./asserts/elementcircle.png" class="position-absolute circle" alt="">
+                                <p class="exploreP">“Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus
+                                    ac
+                                    scelerisque eu, facilisis quis purus. Morbi
+                                    blandit sit amet turpis nec”</p>
+
+                                <p class="fw-bold">Edward Newgate</p>
+                                <p>Founder Circle</p>
+                            </div>
+                        </div>
+                        <div class="col testimonialimg img-fluid rounded-3">
+                            <div class="indicators bg-white rounded-start py-2 px-2">
+                                <button class="indicatorbtn previous p-0" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carouselicon p-2 fs-2"><i class="fa-solid fa-less-than"></i></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="indicatorbtn next p-0" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span class=" carouselicon p-2 fs-2"><i class="fa-solid fa-greater-than"></i></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col d-flex flex-column justify-content-center">
+                            <div class="d-flex">
+                                <span class="fs-3 mt-4"><i class="fa-solid fa-star text-warning"></i></span>
+                                <span class="fs-3 mt-4"><i class="fa-solid fa-star text-warning"></i></span>
+                                <span class="fs-3 mt-4"><i class="fa-solid fa-star text-warning"></i></span>
+                                <span class="fs-3 mt-4"><i class="fa-solid fa-star text-warning"></i></span>
+                            </div>
+
+                            <div class="position-relative">
+                                <img src="./asserts/elementcircle.png" class="position-absolute circle" alt="">
+                                <p class="exploreP">“Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus
+                                    ac
+                                    scelerisque eu, facilisis quis purus. Morbi
+                                    blandit sit amet turpis nec”</p>
+
+                                <p class="fw-bold">Edward Newgate</p>
+                                <p>Founder Circle</p>
+                            </div>
+                        </div>
+                        <div class="col testimonialimg img-fluid rounded-3">
+                            <div class="indicators bg-white rounded-start py-2 px-2">
+                                <button class="indicatorbtn previous p-0" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carouselicon p-2 fs-2"><i class="fa-solid fa-less-than"></i></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="indicatorbtn next p-0" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span class=" carouselicon p-2 fs-2"><i class="fa-solid fa-greater-than"></i></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Trending stories -->
+        <div class="row explorerow mb-2">
+            <div class="col">
+                <img src="./asserts/elementplus.png" class="position-absolute end-50" alt="">
+                <p class="fs-3 featured">Trending stories</p>
+            </div>
+            <div class="col d-flex justify-content-end">
+                <p class="pcolor">View all>></p>
+            </div>
+        </div>
+
+        <div class="row gy-3">
+            <div class="col-12 col-sm-6 col-md-3">
+                <div class="card border-0">
+                    <img src="./asserts/stories1.png" class="card-img-top img-fluid storiesimg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">The many benefits of
+                            taking a healing holiday</h5>
+                        <p class="card-text">‘Healing holidays’ are on the rise
+                            to help maximize your health and happiness...</p>
+                        <a href="#" class="text-decoration-none pcolor">Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+                <div class="card border-0">
+                    <img src="./asserts/stories2.png" class="card-img-top img-fluid storiesimg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">The best Kyoto restaurant
+                            to try Japanese food</h5>
+                        <p class="card-text">From tofu to teahouses, here’s our guide to Kyoto’s best restaurants
+                            to visit...</p>
+                        <a href="#" class="text-decoration-none pcolor">Read more</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+                <div class="card border-0">
+                    <img src="./asserts/stories3.png" class="card-img-top img-fluid storiesimg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Skip Chicken Ita and head
+                            to this remote Yucatan</h5>
+                        <p class="card-text">It’s remote and challenging to get,
+                            but braving the jungle and exploring
+                            these ruins without the...</p>
+                        <a href="#" class="text-decoration-none pcolor">Read more</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+                <div class="card border-0">
+                    <img src="./asserts/stories4.png" class="card-img-top img-fluid storiesimg" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Surf’s up at these beginner
+                            spots around the world</h5>
+                        <p class="card-text">If learning to surf has in on your to-
+                            do list for a while, the good news
+                            is: it’s never too late...</p>
+                        <a href="#" class="text-decoration-none pcolor">Read more</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid bgColor">
+        <div class="container">
+            <!-- FOOTER -->
+
+            <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-2">
+                <div class="col mb-3">
+                    <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+                        <img src="./asserts/logo.png" alt="">
+                    </a>
+                    <p class="text-muted">Plan and book your perfect trip with
+                        expert advice, travel tips destination
+                        information from us</p>
+                    <p class="text-muted">©2020 Thousand Sunny. All rights reserved</p>
+                </div>
+
+                <div class="col mb-3">
+
+                </div>
+
+                <div class="col mb-3">
+                    <h5>Destinations</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Africa
+
+
+
+                            </a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Antarctica</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Asia</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Europe</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">America</a></li>
+                    </ul>
+                </div>
+
+                <div class="col mb-3">
+                    <h5>Shop</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Destination Guides</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pictorial & Gifts</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Special Offers</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Delivery Times</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                    </ul>
+                </div>
+
+                <div class="col mb-3">
+                    <h5>Interests</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Adventure Travel</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Art And Culture</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Wildlife And Nature</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Family Holidays</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Food And Drink</a></li>
+                    </ul>
+                </div>
+            </footer>
+            <hr>
+            <!-- SOCIAL LINKS -->
+            <div class="d-flex justify-content-center mb-1 responsiveonmobile">
+                <span><i class="fa-brands fa-twitter fs-2 ms-4"></i></span>
+                <span><i class="fa-brands fa-facebook fs-2 ms-4"></i></span>
+                <span><i class="fa-brands fa-instagram fs-2 ms-4"></i></span>
+                <span><i class="fa-brands fa-linkedin fs-2 ms-4"></i></span>
+                <span><i class="fa-brands fa-youtube fs-2 ms-4"></i></span>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
